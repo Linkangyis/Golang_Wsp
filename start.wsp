@@ -1,3 +1,69 @@
+print(time());
+function (xxx:[$x,$y]){
+    for ([0,10,1,$i,+,1]):{
+        for ([0,10,1,$z,+,2]):{
+            for ([0,10,1,$z,+,3]):{
+                print($i)#3
+            }#2
+        }#1
+    }#F
+   print($x)#F
+   print($y)#F
+   if ($x="sss")[-1-]{
+       print($y)
+   }
+};
+
+xxx("sss","cs");
+
+$a="czsus";
+$b="czsuss";
+$c="czsus";
+$d="10086";
+$r=$d;
+
+
+
+if ($a=$c)[-1-]{
+   if ($b="czsuss")[-2-]{
+       print($d)#i2
+   }else#e2 (true)[-2-]{
+       print($a)#i2
+   }
+};
+
+$base=base64Encode("test");
+print($base);
+print(base64Decode($base));
+
+$array[0]="s0";
+$array[1]="2";
+$array[2]="3";
+$array[3]="s3";
+$array[4]="s4";
+$array[5]="s5";
+
+for ([0,10,1,$i,+,1]):{
+    print($array[$i])#1
+};
+
+print($array[$array[$array[1]]]);
+
+print(rand(100,210));
+
+print($array);
+
+$aaa[0]="w";
+$aaa[0]="ws";
+$aaa[1]="w";
+$array[2]=$aaa;
+$array[1]="e";
+$arr[1]=$array;
+$arr[2]="aa";
+print($arr);
+
+
+
 $cccc[0]="1";
 $aaa[0]="w";
 $aaa[0]="ws";
@@ -23,3 +89,7 @@ $array[$a]="sjk";
 $ojbk="4";
 $array[$ojbk]="ojbk";
 print($array);
+
+print(time());
+
+null();//未知函数会报错
